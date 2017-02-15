@@ -7,13 +7,13 @@ Look up Edit.Subword in keyboard bindings to set things up.
 ## Change Log
 
 ### Version 1.3.0
-Now for snaky_people as well, thanks to SombreErmine!
+Now for snaky_people as well, thanks to [SombreErmine](https://social.msdn.microsoft.com/profile/sombreermine/)!
 
 ### Version 1.2.0
 Enabled VS 2015 support again; "works on my machine".
 
 ### Version 1.1.1
-Corrected a couple of odd behaviors due to having any existing selections. Should now align nicely with Sublime. Thanks JNF-smile.
+Corrected a couple of odd behaviors due to having any existing selections. Should now align nicely with Sublime. Thanks [JNF-smile](https://social.msdn.microsoft.com/profile/jnf-smile/).
 Found what was needed for VS 2015 support. This will have to wait for a bit I'm afraid.
 
 ### Version 1.1.0
