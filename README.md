@@ -6,6 +6,9 @@ Look up Edit.Subword in keyboard bindings to set things up.
 
 ## Change Log
 
+### Version 1.4.0
+Fixed wonky line transitions, wonky whitespace edge cases and wonky virtual space handling. And VS 2017.
+
 ### Version 1.3.0
 Now for snaky_people as well, thanks to [SombreErmine](https://social.msdn.microsoft.com/profile/sombreermine/)!
 
