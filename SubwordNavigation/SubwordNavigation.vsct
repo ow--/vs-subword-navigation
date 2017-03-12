@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+
+  <Commands package="guidSubwordNavigationPkg">
+    <Groups>
+      <Group guid="guidSubwordNavigationCmdSet" id="MyMenuGroup" priority="0x0600">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_EDIT"/>
+      </Group>
+    </Groups>
+
+    <Buttons>
+      <Button guid="guidSubwordNavigationCmdSet" id="cmdidSubwordPrevious" priority="0x0100" type="Button">
+        <Parent guid="guidSubwordNavigationCmdSet" id="MyMenuGroup" />
+        <CommandFlag>CommandWellOnly</CommandFlag>
+        <CommandFlag>DefaultInvisible</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <ButtonText>Subword Previous</ButtonText>
+          <MenuText>Go To Previous Subword</MenuText>
+        </Strings>
+      </Button>
+      <Button guid="guidSubwordNavigationCmdSet" id="cmdidSubwordNext" priority="0x0101" type="Button">
+        <Parent guid="guidSubwordNavigationCmdSet" id="MyMenuGroup" />
+        <CommandFlag>CommandWellOnly</CommandFlag>
+        <CommandFlag>DefaultInvisible</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <ButtonText>Subword Next</ButtonText>
+          <MenuText>Go To Next Subword</MenuText>
+        </Strings>
+      </Button>
+      <Button guid="guidSubwordNavigationCmdSet" id="cmdidSubwordPreviousExtend" priority="0x0102" type="Button">
+        <Parent guid="guidSubwordNavigationCmdSet" id="MyMenuGroup" />
+        <CommandFlag>CommandWellOnly</CommandFlag>
+        <CommandFlag>DefaultInvisible</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <ButtonText>Subword Previous Extend</ButtonText>
+          <MenuText>Go To Previous Subword Extend Selection</MenuText>
+        </Strings>
+      </Button>
+      <Button guid="guidSubwordNavigationCmdSet" id="cmdidSubwordNextExtend" priority="0x0103" type="Button">
+        <Parent guid="guidSubwordNavigationCmdSet" id="MyMenuGroup" />
+        <CommandFlag>CommandWellOnly</CommandFlag>
+        <CommandFlag>DefaultInvisible</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <ButtonText>Subword Next Extend</ButtonText>
+          <MenuText>Go To Next Subword Extend Selection</MenuText>
+        </Strings>
+      </Button>
+      <Button guid="guidSubwordNavigationCmdSet" id="cmdidSubwordDeletePrevious" priority="0x0104" type="Button">
+        <Parent guid="guidSubwordNavigationCmdSet" id="MyMenuGroup" />
+        <CommandFlag>CommandWellOnly</CommandFlag>
+        <CommandFlag>DefaultInvisible</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <ButtonText>Subword Delete Previous</ButtonText>
+          <MenuText>Delete Previous Subword</MenuText>
+        </Strings>
+      </Button>
+      <Button guid="guidSubwordNavigationCmdSet" id="cmdidSubwordDeleteNext" priority="0x0105" type="Button">
+        <Parent guid="guidSubwordNavigationCmdSet" id="MyMenuGroup" />
+        <CommandFlag>CommandWellOnly</CommandFlag>
+        <CommandFlag>DefaultInvisible</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <ButtonText>Subword Delete Next</ButtonText>
+          <MenuText>Delete Next Subword</MenuText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidSubwordNavigationPkg" value="{ad7396e5-bd21-4114-90e6-36d157cbcc84}" />
+    <GuidSymbol name="guidSubwordNavigationCmdSet" value="{693f5022-3bf5-419d-8bda-46f5d92b35ad}">
+      <IDSymbol name="MyMenuGroup" value="0x1020" />
+      <IDSymbol name="cmdidSubwordPrevious" value="0x0100" />
+      <IDSymbol name="cmdidSubwordNext" value="0x0101" />
+      <IDSymbol name="cmdidSubwordPreviousExtend" value="0x0102" />
+      <IDSymbol name="cmdidSubwordNextExtend" value="0x0103" />
+      <IDSymbol name="cmdidSubwordDeletePrevious" value="0x0104" />
+      <IDSymbol name="cmdidSubwordDeleteNext" value="0x0105" />
+    </GuidSymbol>
+  </Symbols>
+
+</CommandTable>
