@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="ad7396e5-bd21-4114-90e6-36d157cbcc84" Version="1.3.0" Language="en-US" Publisher="Olle Westman" />
+    <Identity Id="ad7396e5-bd21-4114-90e6-36d157cbcc84" Version="1.4.0" Language="en-US" Publisher="Olle Westman" />
     <DisplayName>Subword Navigation</DisplayName>
     <Description xml:space="preserve">Provides subword navigation for Visual Studio.</Description>
     <License>LICENSE</License>
