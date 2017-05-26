@@ -12,7 +12,6 @@ namespace VisualStudio.SubwordNavigation {
             }
             var word = wordExtent.Span.GetText();
             var subwords = Regex.Split(word, @"(_+)|(?=\p{Lu}\p{Ll})|(?<=\p{Ll})(?=\p{Lu})", RegexOptions.Compiled);
-            var extents = new List<TextExtent>();
             var start = wordExtent.Span.Start;
             foreach (var item in subwords) {
                 if (currentPosition.Position >= start && currentPosition.Position < start + item.Length) {
