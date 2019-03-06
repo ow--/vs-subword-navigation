@@ -1,6 +1,5 @@
 ﻿using Microsoft.VisualStudio.Text;
 using Microsoft.VisualStudio.Text.Operations;
-using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace VisualStudio.SubwordNavigation {

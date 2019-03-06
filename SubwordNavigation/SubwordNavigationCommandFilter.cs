@@ -7,10 +7,10 @@ using System.Collections.Generic;
 
 namespace VisualStudio.SubwordNavigation {
     internal class SubwordNavigationCommandFilter : IOleCommandTarget {
-        IWpfTextView textView;
-        IEditorOperations operations;
-        ITextStructureNavigator navigator;
-        Dictionary<uint, Action> commands = new Dictionary<uint, Action>();
+        private readonly IWpfTextView textView;
+        private readonly IEditorOperations operations;
+        private readonly ITextStructureNavigator navigator;
+        private readonly Dictionary<uint, Action> commands = new Dictionary<uint, Action>();
 
         public SubwordNavigationCommandFilter(IWpfTextView textView, IEditorOperations operations, ITextStructureNavigator navigator) {
             this.textView = textView;

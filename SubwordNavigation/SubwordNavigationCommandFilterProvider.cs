@@ -32,8 +32,7 @@ namespace VisualStudio.SubwordNavigation {
 
             var commandFilter = new SubwordNavigationCommandFilter(textView, operations, navigator);
 
-            IOleCommandTarget next;
-            var hr = textViewAdapter.AddCommandFilter(commandFilter, out next);
+            var hr = textViewAdapter.AddCommandFilter(commandFilter, out IOleCommandTarget next);
             if (ErrorHandler.Succeeded(hr)) {
                 commandFilter.Next = next;
             }
