@@ -72,6 +72,26 @@
           <MenuText>Delete Next Subword</MenuText>
         </Strings>
       </Button>
+      <Button guid="guidSubwordNavigationCmdSet" id="cmdidSubwordShrinkSelection" priority="0x0106" type="Button">
+        <Parent guid="guidSubwordNavigationCmdSet" id="MyMenuGroup" />
+        <CommandFlag>CommandWellOnly</CommandFlag>
+        <CommandFlag>DefaultInvisible</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <ButtonText>Subword Shrink Selection</ButtonText>
+          <MenuText>Shrink Subword Selection</MenuText>
+        </Strings>
+      </Button>
+      <Button guid="guidSubwordNavigationCmdSet" id="cmdidSubwordGrowSelection" priority="0x0107" type="Button">
+        <Parent guid="guidSubwordNavigationCmdSet" id="MyMenuGroup" />
+        <CommandFlag>CommandWellOnly</CommandFlag>
+        <CommandFlag>DefaultInvisible</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <ButtonText>Subword Grow Selection</ButtonText>
+          <MenuText>Grow Subword Selection</MenuText>
+        </Strings>
+      </Button>
     </Buttons>
   </Commands>
 
@@ -85,6 +105,8 @@
       <IDSymbol name="cmdidSubwordNextExtend" value="0x0103" />
       <IDSymbol name="cmdidSubwordDeletePrevious" value="0x0104" />
       <IDSymbol name="cmdidSubwordDeleteNext" value="0x0105" />
+      <IDSymbol name="cmdidSubwordShrinkSelection" value="0x0106" />
+      <IDSymbol name="cmdidSubwordGrowSelection" value="0x0107" />
     </GuidSymbol>
   </Symbols>
 
