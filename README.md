@@ -2,9 +2,12 @@
 This adds the missing code navigation feature costing so many developers so much valuable time by selecting parts of words one character at the time or reaching for that pesky mouse. No warranty.
 
 ## Usage
-Look up Edit.Subword in keyboard bindings to set things up.
+Search for Edit.Subword in keyboard bindings and set shortcuts according to taste in the _Text Editor_ context. Some like to replace the regular word navigation keys. I prefer to have both available.
 
 ## Change Log
+
+### Version 2.0.0
+VS 2022 support thanks to [reduckted](https://github.com/reduckted). Due to changes to extension authoring, support has been dropped for VS 2015 and below.
 
 ### Version 1.5.0
 VS 2019.
