@@ -9,5 +9,7 @@ namespace VisualStudio.SubwordNavigation {
         public const uint cmdidSubwordNextExtend = 0x103;
         public const uint cmdidSubwordDeletePrevious = 0x104;
         public const uint cmdidSubwordDeleteNext = 0x105;
+        public const uint cmdidSubwordShrinkSelection = 0x106;
+        public const uint cmdidSubwordGrowSelection = 0x107;
     };
 }
