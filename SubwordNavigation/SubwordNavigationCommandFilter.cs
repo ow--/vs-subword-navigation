@@ -84,7 +84,7 @@ namespace VisualStudio.SubwordNavigation {
                 return;
             }
 
-            var extent = navigator.GetExtentOfSubword(point - 1);
+            var extent = navigator.GetExtentOfSubword(point - 1, textView.TextSnapshot);
 
             if (extent == null) {
                 return;
@@ -112,7 +112,7 @@ namespace VisualStudio.SubwordNavigation {
                 return;
             }
 
-            var extent = navigator.GetExtentOfSubword(point);
+            var extent = navigator.GetExtentOfSubword(point, textView.TextSnapshot);
 
             if (extent == null) {
                 return;
